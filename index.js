@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 const Newuser=require('./router/model');
 const session=require('express-session');
 const app=express()
-app.use(session({secret:'FuckYouBitch'}));
+app.use(session({secret:'123'}));
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 //mongoose connection
